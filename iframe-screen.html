@@ -334,9 +334,9 @@
         }
     });
     </script>
-	<script src="https://cdn.jsdelivr.net/gh/kitao/pyxel/wasm/pyxel.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/kitao/pyxel@v2.9.9/wasm/pyxel.js"></script>
 	<pyxel-run
-      root="https://cdn.jsdelivr.net/gh/kitao/pyxel/wasm/"
+      root="https://cdn.jsdelivr.net/gh/kitao/pyxel@v2.9.9/wasm/"
 	  script="
 import js, json, base64, pyxel.cli
 pyxel_data = json.loads(js.localStorage.getItem('capytale_pyxelstudio_data'))
@@ -463,7 +463,7 @@ else:
         skipClickToStart();
     </script>
 	
-    <script src="assets/js/split.min.js"></script>
+    <script src="assets/js/split.min.js?v220"></script>
     <script>
         Split(['#split-0', '#split-1'], {
             sizes: [75, 25],
@@ -478,7 +478,7 @@ else:
         })
     </script>	
 
- 	<script src="assets/js/bootstrap.bundle.min.js"></script>   
+ 	<script src="assets/js/bootstrap.bundle.min.js?v220"></script>   
 	
     <script>
 	    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
